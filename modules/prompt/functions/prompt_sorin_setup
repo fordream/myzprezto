@@ -118,7 +118,7 @@ function prompt_sorin_setup {
   zstyle ':prezto:module:git:info:added' format ' %%B%F{2}✚%f%%b'
   zstyle ':prezto:module:git:info:ahead' format ' %%B%F{13}⬆%f%%b'
   zstyle ':prezto:module:git:info:behind' format ' %%B%F{13}⬇%f%%b'
-  zstyle ':prezto:module:git:info:branch' format ' %%B%F{2}%b%f%%b'
+  zstyle ':prezto:module:git:info:branch' format ' %%B%F{2}[%b]%f%%b'
   zstyle ':prezto:module:git:info:commit' format ' %%B%F{3}%.7c%f%%b'
   zstyle ':prezto:module:git:info:deleted' format ' %%B%F{1}✖%f%%b'
   zstyle ':prezto:module:git:info:modified' format ' %%B%F{4}✱%f%%b'

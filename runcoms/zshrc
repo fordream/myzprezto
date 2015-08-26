@@ -11,3 +11,10 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
 fi
 
 # Customize to your needs...
+eval "$(rbenv init -)"
+plugins+=(git-aliases)
+alias fuck='eval $(thefuck $(fc -ln -1))'
+PATH=$PATH:/usr/texbin
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=$HOME/.nodebrew/current/bin:$PATH
